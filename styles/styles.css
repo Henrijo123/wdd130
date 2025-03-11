@@ -10,7 +10,7 @@ nav a {
 h1 {
     color: darkblue;
 }
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -19,4 +19,27 @@ img {
 }
 p {
     padding: 10px;
+}
+main {
+    max-width: 800px;
+}
+aside {
+    width: 600px;
+    margin: 20px;
+    border: 1px solid rgb(0, 0, 0 / .2);
+    padding: 10px;
+    background-color: #f3efdb;
+    color: #25005c;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+p {
+    padding: 0;
+}
+footer {
+    margin-top: 50px;
+    border-top: 3px solid rgb(87, 87, 79);
+    text-align: center;
 }
