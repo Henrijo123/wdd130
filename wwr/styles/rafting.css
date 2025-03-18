@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Yuji+Mai&display=swap');
+
+:root {
+    --primary-color: #103a4eb2;
+    --secondary-color: #5b7a54;
+    --accent1-color: #c2dbf3;
+    --accent2-color: #CACF85;
+}
+
+body {
+    max-width: 1400px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+header {
+    display: flex;
+    margin: 1rem;
+}
+
+header nav {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 5rem 10rem;
+}
+
+#home {
+    text-decoration: none;
+    margin: 1rem 2.5rem;
+    padding: 10px;
+    background-color: var(--accent2-color);
+}
+
+#about-us {
+    text-decoration: none;
+    margin: 1rem 2.5rem;
+    padding: 10px;
+    background-color: var(--accent2-color);
+}
+
+#trips {
+    text-decoration: none;
+    margin: 1rem 2.5rem;
+    padding: 10px;
+    background-color: var(--accent2-color);
+}
+
+#contact-us {
+    text-decoration: none;
+    margin: 1rem 2.5rem;
+    padding: 10px;
+    background-color: var(--accent2-color);
+}
+
+div img {
+    position: absolute;
+    width: 1400px;
+}
+
+div h1 {
+    font-family: 'Yuji Mai', serif;
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
+    position: absolute;
+    text-align: center;
+    margin: 1rem 30rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+article {
+    max-width: 1365px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--accent2-color);
+    margin-top: 6rem;
+    padding: 1rem 1rem;
+    position: absolute;
+    background-color: var(--primary-color);
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+article img {
+    border: 3px solid var(--secondary-color);
+    float: right;
+    width: 300px;
+}
+
+h2 {
+    font-family: 'Yuji Mai', serif;
+    display: block;
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
+    padding: .1rem 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.first-section {
+    padding-top: 45rem;
+}
+
+.first-section p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem 2rem;
+    padding: 5px;
+    border: 1px rgba(0, 0, 0, .1);
+    background-color: var(--accent1-color);
+}
+
+.second-section img{
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    border-top: 2px dashed var(--primary-color);
+}
+
+footer img {
+    width: 50px;
+}
