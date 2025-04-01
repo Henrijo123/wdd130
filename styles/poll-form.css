@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    background: white;
+}
+
+header {
+    margin: 0;
+    width: 650px;
+    justify-self: center;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: blueviolet;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color:rgba(66, 255, 66, 0.356);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 10px;
+    border: 1px solid rgb(58, 18, 95);
+    padding: 5px;
+}
+
+legend {
+    padding: 10px;
+    margin: 10px;
+    color: blueviolet;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1px;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: .9em;
+    background-color: rgba(137, 43, 226, 0.5);
+}
+
+#pet {
+    width: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: rgba(137, 43, 226, 0.7);
+    margin: 0 10rem;
+    padding: 5px;
+    font-size: 1em;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: .7em;
+    color: rgb(100, 28, 167);
+    border-top: 1px solid rgb(114, 196, 114);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 4fr 5fr;
+    margin: .3rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 4fr;
+}
