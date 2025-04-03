@@ -129,30 +129,7 @@ figure {
 
 .figure1 {
     display: flex;
-    flex-flow: column;
-    margin: auto;
-}
-
-.figure2 {
-    display: flex;
-    flex-flow: column;
-    margin: auto;
-}
-
-.figure3 {
-    display: flex;
-    flex-flow: column;
-    margin: auto;
-}
-
-.figure4 {
-    display: flex;
-    flex-flow: column;
-    margin: auto;
-}
-
-.figure5 {
-    display: flex;
+    flex-wrap: wrap;
     flex-flow: column;
     margin: auto;
 }
