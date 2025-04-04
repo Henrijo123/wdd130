@@ -30,7 +30,7 @@
                     <li class="list">Phone numbers:  (XXX) XXX-XXXX , (XXX) XXX-XXXX</li>
                     <li class="list">Email: <a href="mailto:email@example.com">email@example.com</a></li>
                 </ol>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1684.8631503800962!2d-54.18261148590006!3d-32.37288707252334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2suy!4v1743609380678!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1684.8631503800962!2d-54.18261148590006!3d-32.37288707252334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2suy!4v1743609380678!5m2!1ses!2suy" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="information2"><section>
                 <figure class="third-section">
@@ -43,24 +43,27 @@
                 </figure></section>
             </div>
         </div>
+       
         <div class="font field">
-            <label for="name">Name: </label>
-            <input class="place write" type="text" id="name" name="name">
-            <label for="email">Email: </label>
-            <input class="place write" type="email" id="email" name="email">
-            <fieldset>
-                <label for="name">Purpose of the message: </label>
-                <div class="radio-group"><input class="place" type="radio" id="general-inquiry" name="option">
-                <label for="general-inquiry">General Inquiry</label></div>
-                <div class="radio-group"><input class="place" type="radio" id="reservation-question" name="option">
-                <label for="reservation-question">Reservation Question</label></div>
-                <div class="radio-group"><input class="place" type="radio" id="website-suggestion" name="option">
-                <label for="website-suggestion">Website Suggestion</label></div>
-                <textarea name="message" id="message">Type here your message...</textarea>
-                <div><input class="place" type="checkbox" id="checkbox">
-                <label for="checkbox">Please subscribe me to the monthly newsletter</label></div>
-                <button type="submit">Submit message</button>
-            </fieldset>
+            <form action="">
+                <label for="name">Name: </label>
+                <input class="place write" type="text" id="name" name="name">
+                <label for="email">Email: </label>
+                <input class="place write" type="email" id="email" name="email">
+                <fieldset>
+                    <label for="name">Purpose of the message: </label>
+                    <div class="radio-group"><input class="place" type="radio" id="general-inquiry" name="option">
+                    <label for="general-inquiry">General Inquiry</label></div>
+                    <div class="radio-group"><input class="place" type="radio" id="reservation-question" name="option">
+                    <label for="reservation-question">Reservation Question</label></div>
+                    <div class="radio-group"><input class="place" type="radio" id="website-suggestion" name="option">
+                    <label for="website-suggestion">Website Suggestion</label></div>
+                    <textarea name="message" id="message">Type here your message...</textarea>
+                    <div><input class="place" type="checkbox" id="checkbox">
+                    <label for="checkbox">Please subscribe me to the monthly newsletter</label></div>
+                    <button type="submit">Submit message</button>
+                </fieldset>
+            </form>
         </div>
     </main>
     <footer>
