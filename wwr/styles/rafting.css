@@ -185,7 +185,6 @@ footer {
 
 footer a {
     text-decoration: none;
-    flex-wrap: wrap;
 }
 
 footer nav {
@@ -194,6 +193,10 @@ footer nav {
 
 footer img {
     width: 50px;
+}
+
+.wireframe {
+    margin: auto;
 }
 
 .employees {
