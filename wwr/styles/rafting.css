@@ -354,3 +354,64 @@ button {
 .families p {
     margin: 1rem 4rem;
 }
+
+.trips {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr .1fr 1fr;
+}
+
+.trips img {
+    justify-self: center;
+    padding: 4px;
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    max-width: 400px;
+}
+
+.trips p {
+    padding: 1rem;
+    text-align: center;
+}
+
+.trips h2 {
+    margin: 1rem 3rem 0 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+div h1 {
+    font-family: 'Yuji Mai', serif;
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.chart {border: 1px solid var(--primary-color);
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+.chart p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+
+.first-row {
+    background-color: var(--secondary-color);
+}
+
+.next-rows {
+    background-color: var(--accent2-color);
+}
