@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 1400px;
+    width: 1400px;
     justify-self: center;
 }
 
@@ -40,7 +40,7 @@ header nav {
     background-color: var(--accent2-color);
 }
 
-#hero-img {
+.hero-img {
     position: absolute;
     width: 1400px;
 }
@@ -50,6 +50,9 @@ header nav {
     color: var(--accent2-color);
     background-color: var(--primary-color);
     position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
     text-align: center;
     margin: 1rem 30rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -177,18 +180,14 @@ figcaption {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 2rem;
     padding-top: 10px;
     border-top: 2px dashed var(--primary-color);
-    justify-content: center;
 }
 
 footer a {
     text-decoration: none;
-}
-
-footer nav {
-    margin-left: auto;
 }
 
 footer img {
@@ -306,4 +305,52 @@ button {
     margin-left: 15rem;
     display: flex;
     flex-direction: row;
+}
+
+.space {
+    padding-top: 54rem;
+}
+
+.home {
+    margin: 2rem;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    width: 350px;
+    padding: 10px 0;
+}
+
+.trips-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.families {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.families img {
+    padding: 5px;
+    background-color: var(--accent2-color);
+    border: 3px solid var(--secondary-color);
+    width: 400px;
+    justify-self: center;
+}
+
+.families p {
+    margin: 1rem 4rem;
 }
