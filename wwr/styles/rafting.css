@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #073347d8;
-    --secondary-color: #338121;
-    --accent1-color: #8fc3f3;
-    --accent2-color: #f7ff85;
-    --transparent--accent1-color: #c2dbf377; 
+    --primary-color: #212738;
+    --secondary-color: #F97068;
+    --accent1-color: #D1D646;
+    --accent2-color: #EDF2EF;
+    --transparent--accent1-color: #2127388c; 
 }
 
 body {
@@ -417,9 +417,9 @@ div h1 {
 }
 
 .color {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 .color2 {
-    color: var(--accent2-color);
+    color: var(--primary-color);
 }
